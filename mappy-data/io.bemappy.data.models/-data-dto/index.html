@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>DataDto</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+<a href="../../../index.html">
+<span>Mappy</span>            </a>    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mappy-data:dokkaHtmlPartial/staging">androidJvm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="mappy-data::io.bemappy.data.models/DataDto///PointingToDeclaration//1409225205">
+  <div class="breadcrumbs"><a href="../../index.html">mappy-data</a><span class="delimiter">/</span><a href="../index.html">io.bemappy.data.models</a><span class="delimiter">/</span><span class="current">DataDto</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Data</span><wbr><span><span>Dto</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">DataDto</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>baseElevation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>geoReference<span class="token operator">: </span><a href="../-geo-reference-dto/index.html">GeoReferenceDto</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>gondolaCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>liftCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>medianElevation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>skiPatrolEmergencyNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>skiableArea<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>terrainParkCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>terrainPercentage<span class="token operator">: </span><a href="../-terrain-percentage-dto/index.html">TerrainPercentageDto</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>verticalElevation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>ziplineCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>maxScale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minScale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY">Members</button><button class="section-tab" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY,EXTENSION_PROPERTY,EXTENSION_FUNCTION">Members &amp; Extensions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1753705518%2FConstructors%2F1409225205" anchor-label="DataDto" id="1753705518%2FConstructors%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-data-dto.html"><span>Data</span><wbr><span><span>Dto</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1753705518%2FConstructors%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">baseElevation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">geoReference<span class="token operator">: </span><a href="../-geo-reference-dto/index.html">GeoReferenceDto</a><span class="token punctuation">, </span></span><span class="parameter ">gondolaCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">liftCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">medianElevation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">skiPatrolEmergencyNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">skiableArea<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">terrainParkCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">terrainPercentage<span class="token operator">: </span><a href="../-terrain-percentage-dto/index.html">TerrainPercentageDto</a><span class="token punctuation">, </span></span><span class="parameter ">verticalElevation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">ziplineCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">maxScale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">minScale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="EXTENSION_FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1564287226%2FFunctions%2F1409225205" anchor-label="toDomainLayerModel" id="1564287226%2FFunctions%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.bemappy.data.models.mappers/-venue-dto-mapper/to-domain-layer-model.html"><span>to</span><wbr><span>Domain</span><wbr><span>Layer</span><wbr><span><span>Model</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1564287226%2FFunctions%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html">DataDto</a><span class="token punctuation">.</span><a href="../../io.bemappy.data.models.mappers/-venue-dto-mapper/to-domain-layer-model.html"><span class="token function">toDomainLayerModel</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../mappy-domain/io.bemappy.domain.models/-data-entity/index.html">DataEntity</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-562917248%2FProperties%2F1409225205" anchor-label="baseElevation" id="-562917248%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="base-elevation.html"><span>base</span><wbr><span><span>Elevation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-562917248%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="base-elevation.html">baseElevation</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1225790672%2FProperties%2F1409225205" anchor-label="description" id="1225790672%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="description.html"><span><span>description</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1225790672%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="description.html">description</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1132984748%2FProperties%2F1409225205" anchor-label="geoReference" id="-1132984748%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="geo-reference.html"><span>geo</span><wbr><span><span>Reference</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1132984748%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="geo-reference.html">geoReference</a><span class="token operator">: </span><a href="../-geo-reference-dto/index.html">GeoReferenceDto</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1718013883%2FProperties%2F1409225205" anchor-label="gondolaCount" id="-1718013883%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gondola-count.html"><span>gondola</span><wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1718013883%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="gondola-count.html">gondolaCount</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="553828552%2FProperties%2F1409225205" anchor-label="liftCount" id="553828552%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="lift-count.html"><span>lift</span><wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="553828552%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="lift-count.html">liftCount</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2118036744%2FProperties%2F1409225205" anchor-label="maxScale" id="2118036744%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="max-scale.html"><span>max</span><wbr><span><span>Scale</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2118036744%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="max-scale.html">maxScale</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1679486791%2FProperties%2F1409225205" anchor-label="medianElevation" id="-1679486791%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="median-elevation.html"><span>median</span><wbr><span><span>Elevation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1679486791%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="median-elevation.html">medianElevation</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-290924170%2FProperties%2F1409225205" anchor-label="minScale" id="-290924170%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="min-scale.html"><span>min</span><wbr><span><span>Scale</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-290924170%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-scale.html">minScale</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="626842851%2FProperties%2F1409225205" anchor-label="name" id="626842851%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="626842851%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1099851980%2FProperties%2F1409225205" anchor-label="skiableArea" id="-1099851980%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="skiable-area.html"><span>skiable</span><wbr><span><span>Area</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1099851980%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="skiable-area.html">skiableArea</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1677280911%2FProperties%2F1409225205" anchor-label="skiPatrolEmergencyNumber" id="-1677280911%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ski-patrol-emergency-number.html"><span>ski</span><wbr><span>Patrol</span><wbr><span>Emergency</span><wbr><span><span>Number</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1677280911%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="ski-patrol-emergency-number.html">skiPatrolEmergencyNumber</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="989425150%2FProperties%2F1409225205" anchor-label="terrainParkCount" id="989425150%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="terrain-park-count.html"><span>terrain</span><wbr><span>Park</span><wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="989425150%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="terrain-park-count.html">terrainParkCount</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1814246083%2FProperties%2F1409225205" anchor-label="terrainPercentage" id="-1814246083%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="terrain-percentage.html"><span>terrain</span><wbr><span><span>Percentage</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1814246083%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="terrain-percentage.html">terrainPercentage</a><span class="token operator">: </span><a href="../-terrain-percentage-dto/index.html">TerrainPercentageDto</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1468860517%2FProperties%2F1409225205" anchor-label="verticalElevation" id="1468860517%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="vertical-elevation.html"><span>vertical</span><wbr><span><span>Elevation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1468860517%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="vertical-elevation.html">verticalElevation</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2100783572%2FProperties%2F1409225205" anchor-label="ziplineCount" id="2100783572%2FProperties%2F1409225205" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-data:dokkaHtmlPartial/staging" data-filterable-set=":mappy-data:dokkaHtmlPartial/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="zipline-count.html"><span>zipline</span><wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2100783572%2FProperties%2F1409225205"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-data:dokkaHtmlPartial/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="zipline-count.html">ziplineCount</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
+
