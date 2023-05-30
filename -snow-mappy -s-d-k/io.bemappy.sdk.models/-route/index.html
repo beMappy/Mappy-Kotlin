@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Route</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>SnowMappy SDK</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mappy-sdk:dokkaHtml/staging">androidJvm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="SnowMappy SDK::io.bemappy.sdk.models/Route///PointingToDeclaration//1572814630">
+  <div class="breadcrumbs"><a href="../../../index.html">SnowMappy SDK</a><span class="delimiter">/</span><a href="../index.html">io.bemappy.sdk.models</a><span class="delimiter">/</span><span class="current">Route</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Route</span></span></h1>
+    <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+      <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Route</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">index<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">routeGeometry<span class="token operator">: </span><span data-unresolved-link="com.esri.arcgisruntime.geometry/Polyline///PointingToDeclaration/">Polyline</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>duration<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>totalLength<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>steps<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-navigation-step/index.html">NavigationStep</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>origin<span class="token operator">: </span><a href="../../io.bemappy.sdk.models.features/-feature/index.html">Feature</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>destination<span class="token operator">: </span><a href="../../io.bemappy.sdk.models.features/-feature/index.html">Feature</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/android/os/Parcelable.html">Parcelable</a></div></div>    </div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1237579134%2FConstructors%2F1572814630" anchor-label="Route" id="-1237579134%2FConstructors%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-route.html"><span><span>Route</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1237579134%2FConstructors%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">index<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">routeGeometry<span class="token operator">: </span><span data-unresolved-link="com.esri.arcgisruntime.geometry/Polyline///PointingToDeclaration/">Polyline</span><span class="token punctuation">, </span></span><span class="parameter ">duration<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter ">totalLength<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token punctuation">, </span></span><span class="parameter ">steps<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-navigation-step/index.html">NavigationStep</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">origin<span class="token operator">: </span><a href="../../io.bemappy.sdk.models.features/-feature/index.html">Feature</a><span class="token punctuation">, </span></span><span class="parameter ">destination<span class="token operator">: </span><a href="../../io.bemappy.sdk.models.features/-feature/index.html">Feature</a></span></span><span class="token punctuation">)</span></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="1368726599%2FClasslikes%2F1572814630" anchor-label="Companion" id="1368726599%2FClasslikes%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1368726599%2FClasslikes%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1655131099%2FClasslikes%2F1572814630" anchor-label="TravelType" id="1655131099%2FClasslikes%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-travel-type/index.html"><span>Travel</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1655131099%2FClasslikes%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-travel-type/index.html">TravelType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-travel-type/index.html">Route.TravelType</a><span class="token operator">&gt; </span></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="EXTENSION_FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1150764396%2FFunctions%2F1572814630" anchor-label="toLevel" id="1150764396%2FFunctions%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="to-level.html"><span>to</span><wbr></wbr><span><span>Level</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1150764396%2FFunctions%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-travel-type/index.html">Route.TravelType</a><span class="token punctuation">.</span><a href="to-level.html"><span class="token function">toLevel</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.bemappy.sdk.models.enums/-level/index.html">Level</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1350808078%2FProperties%2F1572814630" anchor-label="destination" id="-1350808078%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="destination.html"><span><span>destination</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1350808078%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="destination.html">destination</a><span class="token operator">: </span><a href="../../io.bemappy.sdk.models.features/-feature/index.html">Feature</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="485746950%2FProperties%2F1572814630" anchor-label="duration" id="485746950%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="duration.html"><span><span>duration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="485746950%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="duration.html">duration</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1988148372%2FProperties%2F1572814630" anchor-label="formattedTotalLength" id="-1988148372%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="formatted-total-length.html"><span>formatted</span><wbr></wbr><span>Total</span><wbr></wbr><span><span>Length</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1988148372%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="formatted-total-length.html">formattedTotalLength</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="958268796%2FProperties%2F1572814630" anchor-label="level" id="958268796%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="level.html"><span><span>level</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="958268796%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="level.html">level</a><span class="token operator">: </span><a href="../../io.bemappy.sdk.models.enums/-level/index.html">Level</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1562475788%2FProperties%2F1572814630" anchor-label="origin" id="-1562475788%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="origin.html"><span><span>origin</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1562475788%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="origin.html">origin</a><span class="token operator">: </span><a href="../../io.bemappy.sdk.models.features/-feature/index.html">Feature</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="789617465%2FProperties%2F1572814630" anchor-label="steps" id="789617465%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="steps.html"><span><span>steps</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="789617465%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="steps.html">steps</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-navigation-step/index.html">NavigationStep</a><span class="token operator">&gt;</span></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-329716170%2FProperties%2F1572814630" anchor-label="totalLength" id="-329716170%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="total-length.html"><span>total</span><wbr></wbr><span><span>Length</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-329716170%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="total-length.html">totalLength</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="180586072%2FProperties%2F1572814630" anchor-label="travelRatios" id="180586072%2FProperties%2F1572814630" data-filterable-set=":mappy-sdk:dokkaHtml/staging"></a>
+          <div class="table-row" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="travel-ratios.html"><span>travel</span><wbr></wbr><span><span>Ratios</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="180586072%2FProperties%2F1572814630"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+                    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":mappy-sdk:dokkaHtml/staging" data-filterable-set=":mappy-sdk:dokkaHtml/staging" data-active="" data-toggle=":mappy-sdk:dokkaHtml/staging">androidJvm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":mappy-sdk:dokkaHtml/staging"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="travel-ratios.html">travelRatios</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-route-step/index.html">RouteStep</a><span class="token operator">&gt;</span></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
