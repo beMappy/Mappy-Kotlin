@@ -670,10 +670,12 @@ $dokka.location:io.bemappy.sdk.services.tracking/TrackingService.Companion/creat
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingService///PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service/index.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingService/TrackingService/#android.content.Context/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service/-tracking-service.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingService/changeTrackingPayload/#io.bemappy.sdk.models.BreadcrumbPayload/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service/change-tracking-payload.html
+$dokka.location:io.bemappy.sdk.services.tracking/TrackingService/isTracking/#/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service/is-tracking.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingService/resume/#io.bemappy.sdk.models.BreadcrumbPayload/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service/resume.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingService/suspend/#/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service/suspend.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingServiceImpl///PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service-impl/index.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingServiceImpl/changeTrackingPayload/#io.bemappy.sdk.models.BreadcrumbPayload/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service-impl/change-tracking-payload.html
+$dokka.location:io.bemappy.sdk.services.tracking/TrackingServiceImpl/isTracking/#/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service-impl/is-tracking.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingServiceImpl/resume/#io.bemappy.sdk.models.BreadcrumbPayload/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service-impl/resume.html
 $dokka.location:io.bemappy.sdk.services.tracking/TrackingServiceImpl/suspend/#/PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.tracking/-tracking-service-impl/suspend.html
 $dokka.location:io.bemappy.sdk.services.venue////PointingToDeclaration/-snow-mappy -s-d-k/io.bemappy.sdk.services.venue/index.html
